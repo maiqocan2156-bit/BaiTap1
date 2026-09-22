@@ -31,6 +31,20 @@ namespace BaiTap1.Controllers
         {
             return View();
         }
+        public ActionResult BT1_lab01a()
+        {
+            return View();
+        }
+        public ActionResult BT2_lab01b()
+        {
+            return View();
+        }
+        public ActionResult BT3_lab01b()
+        {
+            ViewBag.Message = "Thông tin sinh viên";
+
+            return View();
+        }
     }
 
 }
